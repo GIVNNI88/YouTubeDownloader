@@ -1,0 +1,140 @@
+@import url(https://fonts.googleapis.com/css?family=Open+Sans);
+
+body {
+  background: #0f2027;
+  background-image: linear-gradient(to right, #c6ffdd, #fbd786, #f7797d);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 90vh;
+  margin: 0;
+  color: #fff;
+}
+
+.form {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  text-align: center;
+  width: 100%;
+}
+
+.form__group {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+button {
+  font-family: "Open Sans", sans-serif;
+  color: #33333397;
+  font-size: 1.2rem;
+  padding: 1.5rem 2rem;
+  border-radius: 1.2rem;
+  background-color: rgba(255, 255, 255, 0.788);
+  border: none;
+  width: 30%;
+  text-align: center;
+  transition: all 0.3s;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  margin-left: 1rem;
+  cursor: pointer;
+}
+
+button:hover {
+  transform: scale(1.05);
+}
+
+.form__input {
+  font-family: "Open Sans", sans-serif;
+  color: #333;
+  font-size: 1.2rem;
+  padding: 1.5rem 2rem;
+  border-radius: 1.2rem;
+  background-color: rgba(255, 255, 255, 0.788);
+  border: none;
+  width: 100%;
+  text-align: center;
+  transition: all 0.3s;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  margin-right: 1rem;
+}
+
+.mp3 {
+  font-family: "Open Sans", sans-serif;
+  color: #33333397;
+  font-size: 1.2rem;
+}
+
+.form__input:focus {
+  outline: none;
+}
+
+.massage {
+  font-family: "Open Sans", sans-serif;
+  color: rgb(255, 255, 255);
+  font-size: 2rem;
+  text-align: center;
+  margin-top: 2rem;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+h1 {
+  font-family: "Open Sans", sans-serif;
+  font-size: 60px;
+  font-weight: 600;
+  color: rgb(255, 255, 255);
+  margin-bottom: 2rem;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+.checkbox-wrapper-22 .switch {
+  display: inline-block;
+  height: 34px;
+  position: relative;
+  width: 60px;
+}
+
+.checkbox-wrapper-22 .switch input {
+  display: none;
+}
+
+.checkbox-wrapper-22 .slider {
+  background-color: #ccc;
+  bottom: 0;
+  cursor: pointer;
+  left: 0;
+  position: absolute;
+  right: 0;
+  top: 0;
+  transition: 0.4s;
+}
+
+.checkbox-wrapper-22 .slider:before {
+  background-color: #fff;
+  bottom: 4px;
+  content: "";
+  height: 26px;
+  left: 4px;
+  position: absolute;
+  transition: 0.4s;
+  width: 26px;
+}
+
+.checkbox-wrapper-22 input:checked + .slider {
+  background-color: #66bb6a;
+}
+
+.checkbox-wrapper-22 input:checked + .slider:before {
+  transform: translateX(26px);
+}
+
+.checkbox-wrapper-22 .slider.round {
+  border-radius: 34px;
+}
+
+.checkbox-wrapper-22 .slider.round:before {
+  border-radius: 50%;
+}
